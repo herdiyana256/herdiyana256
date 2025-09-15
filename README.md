@@ -7,7 +7,7 @@
 
 - 📫 How to reach me *herdiyan@supernesia.id*
 
-- 📄 Know about my experiences [https://github.com/andrihjm](https://github.com/herdiyana256)
+- 📄 Know about my experiences [https://github.com/herdiyan256](https://github.com/herdiyana256)
 
 - 👨‍💻  my Business [My Business Available At Supernesia Creative Technology ](https://https://supernesia.id/)
 
