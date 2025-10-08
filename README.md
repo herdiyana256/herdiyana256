@@ -5,7 +5,7 @@
 
 <h3 align="center">🏆 TryHackMe Profile</h3>
 <p align="center">
-  <a href="https://tryhackme.com/p/herdiyana256" target="_blank">
+  <a href="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=5844282" target="_blank">
     <img src="https://tryhackme-badges.s3.amazonaws.com/herdiyana256.png" alt="TryHackMe Badge" />
   </a>
 </p>
