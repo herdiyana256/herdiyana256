@@ -2,7 +2,7 @@
 <h3 align="center">🛡️ DevSecOps Engineer & Security Researcher from Indonesia</h3>
 
 - 👨‍💻 All of my projects are available at [https://github.com/herdiyana256](https://github.com/herdiyana256)
-- 💬 Ask me about *Web Security, Bug Bounty, DevSecOps, CI/CD Pipeline Security*
+- 💬 Ask me about *Web Security, Android Dev, DevSecOps, CI/CD Pipeline Security*
 - 📫 How to reach me *herdiyan@supernesia.id*
 - 👨‍💻 My Business [Supernesia Creative Technology](https://supernesia.id)
 
