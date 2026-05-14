@@ -34,6 +34,12 @@
     <th>Year</th>
   </tr>
   <tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
+    <td>Ecosystem misclassification fix causing zero CVE matches for Wolfi OS and Chainguard container images</td>
+    <td>Google OSS VRP</td>
+    <td>2026</td>
+</tr>
+  <tr>
     <td>🚀 <b>NASA</b> (globe.gov)</td>
     <td>Information Disclosure on official government platform</td>
     <td>Bugcrowd VDP</td>
