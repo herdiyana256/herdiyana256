@@ -2,7 +2,7 @@
 <h3 align="center">🛡️AppSec & DevSecOps Engineer & Security Researcher from Indonesia</h3>
 
 - 👨‍💻 All of my projects are available at [https://github.com/herdiyana256](https://github.com/herdiyana256)
-- 💬 Ask me about *Web Security, Android Dev, DevSecOps, CI/CD Pipeline Security*
+- 💬 Ask me about *Web Security, Android Dev, DevSecOps, CI/CD Pipeline Security, Automation*
 - 📫 How to reach me *herdiyan@supernesia.id*
 - 👨‍💻 My Business [Supernesia Creative Technology](https://supernesia.id)
 
@@ -35,7 +35,7 @@
   </tr>
   <tr>
 <td>🔐 <b>Keycloak</b></td>
-    <td>Cross-client token introspection IDOR via <code>/realms/{realm}/protocol/openid-connect/token/introspect</code> — any confidential OAuth client can introspect tokens issued to other clients, leaking full PII and session metadata (username, email, sub, roles, session state) without authorization. Fixed in Keycloak 26.6.3. (<a href="https://www.cve.org/CVERecord?id=CVE-2026-37979" target="_blank">CVE-2026-37979</a>)</td>
+    <td>Cross-client token introspection IDOR via <code>/realms/{realm}/protocol/openid-connect/token/introspect</code>  any confidential OAuth client can introspect tokens issued to other clients, leaking full PII and session metadata (username, email, sub, roles, session state) without authorization. Fixed in Keycloak 26.6.3. (<a href="https://www.cve.org/CVERecord?id=CVE-2026-37979" target="_blank">CVE-2026-37979</a>)</td>
   <td>YesWeHack</td>
   <td>2026</td>
 </tr>
