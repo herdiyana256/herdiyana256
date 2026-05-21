@@ -34,6 +34,12 @@
     <th>Year</th>
   </tr>
   <tr>
+  <td>🔐 <b>Keycloak</b> (Redhat)</td>
+  <td>Cross-client token introspection IDOR via <code>/realms/{realm}/protocol/openid-connect/token/introspect</code> — any confidential OAuth client can introspect tokens issued to other clients, leaking full PII and session metadata (username, email, sub, roles, session state) without authorization. Fixed in Keycloak 26.6.3. (<a href="https://www.cve.org/CVERecord?id=CVE-2026-37979" target="_blank">CVE-2026-37979</a>)</td>
+  <td>YesWeHack</td>
+  <td>2026</td>
+</tr>
+  <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
     <td>Ecosystem misclassification fix causing zero CVE matches for Wolfi OS and Chainguard container images</td>
     <td>Google OSS VRP</td>
@@ -52,11 +58,11 @@
     <td>2026</td>
   </tr>
   <tr>
-    <td>🔑 <b>OpenProject</b> (CVE-2026-27722)</td>
-    <td>Improper Access Control leading to unauthorized cross-project data manipulation</td>
-    <td>YesWeHack</td>
-    <td>2026</td>
-  </tr>
+  <td>🔑 <b>OpenProject</b></td>
+  <td>Improper Access Control leading to unauthorized cross-project data manipulation (<a href="https://www.cve.org/CVERecord?id=CVE-2026-27722" target="_blank">CVE-2026-27722</a> · <a href="https://github.com/opf/openproject/security/advisories/GHSA-xw8w-4qxm-g9gv" target="_blank">GHSA-xw8w-4qxm-g9gv</a>)</td>
+  <td>YesWeHack</td>
+  <td>2026</td>
+</tr>
   <tr>
     <td>📋 <b>OpenProject</b></td>
     <td>Authentication logic flaw enabling account compromise</td>
