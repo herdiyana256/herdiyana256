@@ -34,8 +34,8 @@
     <th>Year</th>
   </tr>
   <tr>
-  <td>🔐 <b>Keycloak</b> (Redhat)</td>
-  <td>Cross-client token introspection IDOR via <code>/realms/{realm}/protocol/openid-connect/token/introspect</code> — any confidential OAuth client can introspect tokens issued to other clients, leaking full PII and session metadata (username, email, sub, roles, session state) without authorization. Fixed in Keycloak 26.6.3. (<a href="https://www.cve.org/CVERecord?id=CVE-2026-37979" target="_blank">CVE-2026-37979</a>)</td>
+<td>🔐 <b>Keycloak</b></td>
+    <td>Cross-client token introspection IDOR via <code>/realms/{realm}/protocol/openid-connect/token/introspect</code> — any confidential OAuth client can introspect tokens issued to other clients, leaking full PII and session metadata (username, email, sub, roles, session state) without authorization. Fixed in Keycloak 26.6.3. (<a href="https://www.cve.org/CVERecord?id=CVE-2026-37979" target="_blank">CVE-2026-37979</a>)</td>
   <td>YesWeHack</td>
   <td>2026</td>
 </tr>
