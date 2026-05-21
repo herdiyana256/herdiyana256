@@ -40,6 +40,12 @@
   <td>2026</td>
 </tr>
   <tr>
+  <td>🔬 <b>Google OSS VRP</b> (osv-scanner)</td>
+  <td>Enabled Swift PackageResolved plugin to detect SwiftURL ecosystem CVEs — fixing zero CVE matches for SPM packages previously misidentified as CocoaPods (<a href="https://github.com/google/osv-scanner/pull/2801" target="_blank">PR #2801</a>)</td>
+  <td>Google OSS VRP</td>
+  <td>2026</td>
+</tr>
+  <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
     <td>Ecosystem misclassification fix causing zero CVE matches for Wolfi OS and Chainguard container images</td>
     <td>Google OSS VRP</td>
