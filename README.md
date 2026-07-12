@@ -34,6 +34,12 @@
     <th>Year</th>
   </tr>
   <tr>
+    <tr>
+  <td>🌐 <b>Angular CLI</b> (build-angular)</td>
+  <td>OS command injection hardening in SSR dev server builder  <code>outputPath</code> from <code>angular.json</code> was interpolated into a shell string with <code>shell: true</code>, allowing <code>$()</code> command substitution. Fixed via 3-arg <code>spawn()</code> (<a href="https://github.com/angular/angular-cli/pull/33479" target="_blank">PR #33479</a>). Classified by maintainers as hardening, not a vulnerability.</td>
+  <td>Angular Team</td>
+  <td>2026</td>
+</tr>
   <tr>
   <td>☁️ <b>Nextcloud</b></td>
   <td>OCS Share API exposes full Argon2id password hash of password-protected link shares via <code>/ocs/v2.php/apps/files_sharing/api/v1/shares</code>, enabling offline brute-force attacks without rate limiting.</td>
