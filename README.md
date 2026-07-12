@@ -37,7 +37,7 @@
     <tr>
   <td>🌐 <b>Angular CLI</b> (build-angular)</td>
   <td>OS command injection hardening in SSR dev server builder  <code>outputPath</code> from <code>angular.json</code> was interpolated into a shell string with <code>shell: true</code>, allowing <code>$()</code> command substitution. Fixed via 3-arg <code>spawn()</code> (<a href="https://github.com/angular/angular-cli/pull/33479" target="_blank">PR #33479</a>). Classified by maintainers as hardening, not a vulnerability.</td>
-  <td>Angular Team</td>
+  <td>Google OSS VRP</td>
   <td>2026</td>
 </tr>
   <tr>
