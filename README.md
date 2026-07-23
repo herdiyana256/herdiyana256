@@ -35,6 +35,18 @@
   </tr>
   <tr>
     <tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
+    <td>Fixed <code>os/rpm</code> extractor to map AlmaLinux ecosystem — previously zero ALSA advisories detected across 1B+ pulled AlmaLinux container images. (<a href="https://github.com/google/osv-scalibr/pull/2148" target="_blank">PR #2148</a>)</td>
+    <td>Google OSS VRP (PRP)</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
+    <td>Fixed <code>os/rpm</code> extractor to map Mageia ecosystem — previously zero MGASA advisories detected across 5,900+ tracked Mageia OSV.dev entries. (<a href="https://github.com/google/osv-scalibr/pull/2199" target="_blank">PR #2199</a>)</td>
+    <td>Google OSS VRP (PRP)</td>
+    <td>2026</td>
+  </tr>
+    <tr>
   <td>🌐 <b>Angular CLI</b> (build-angular)</td>
   <td>OS command injection hardening in SSR dev server builder  <code>outputPath</code> from <code>angular.json</code> was interpolated into a shell string with <code>shell: true</code>, allowing <code>$()</code> command substitution. Fixed via 3-arg <code>spawn()</code> (<a href="https://github.com/angular/angular-cli/pull/33479" target="_blank">PR #33479</a>). Classified by maintainers as hardening, not a vulnerability.</td>
   <td>Google OSS VRP</td>
