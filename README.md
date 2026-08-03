@@ -34,6 +34,12 @@
     <th>Year</th>
   </tr>
   <tr>
+    <td>📦 <b>Easyship</b></td>
+    <td>Exposed Addressy (Loqate) API key in client-side JS bundle with no domain restriction, enabling unauthorized quota-draining API abuse (CWE-798)</td>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
+  <tr>
     <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
     <td>Fixed <code>os/rpm</code> extractor to map AlmaLinux ecosystem — previously zero ALSA advisories detected across 1B+ pulled AlmaLinux container images. (<a href="https://github.com/google/osv-scalibr/pull/2148" target="_blank">PR #2148</a>)</td>
