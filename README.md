@@ -40,35 +40,59 @@
     <td>2026</td>
   </tr>
   <tr>
-    <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
-    <td>Fixed <code>os/rpm</code> extractor to map AlmaLinux ecosystem — previously zero ALSA advisories detected across 1B+ pulled AlmaLinux container images. (<a href="https://github.com/google/osv-scalibr/pull/2148" target="_blank">PR #2148</a>)</td>
+    <td>Fixed <code>os/rpm</code> extractor to map AlmaLinux ecosystem previously zero ALSA advisories detected across 1B+ pulled AlmaLinux container images. (<a href="https://github.com/google/osv-scalibr/pull/2148" target="_blank">PR #2148</a>)</td>
     <td>Google OSS VRP (PRP)</td>
     <td>2026</td>
   </tr>
   <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
-    <td>Fixed <code>os/rpm</code> extractor to map Mageia ecosystem — previously zero MGASA advisories detected across 5,900+ tracked Mageia OSV.dev entries. (<a href="https://github.com/google/osv-scalibr/pull/2199" target="_blank">PR #2199</a>)</td>
+    <td>Fixed <code>os/rpm</code> extractor to map Mageia ecosystem previously zero MGASA advisories detected across 5,900+ tracked Mageia OSV.dev entries. (<a href="https://github.com/google/osv-scalibr/pull/2199" target="_blank">PR #2199</a>)</td>
     <td>Google OSS VRP (PRP)</td>
     <td>2026</td>
   </tr>
-    <tr>
-  <td>🌐 <b>Angular CLI</b> (build-angular)</td>
-  <td>OS command injection hardening in SSR dev server builder  <code>outputPath</code> from <code>angular.json</code> was interpolated into a shell string with <code>shell: true</code>, allowing <code>$()</code> command substitution. Fixed via 3-arg <code>spawn()</code> (<a href="https://github.com/angular/angular-cli/pull/33479" target="_blank">PR #33479</a>). Classified by maintainers as hardening, not a vulnerability.</td>
-  <td>Google OSS VRP</td>
-  <td>2026</td>
-</tr>
   <tr>
-  <td>☁️ <b>Nextcloud</b></td>
-  <td>OCS Share API exposes full Argon2id password hash of password-protected link shares via <code>/ocs/v2.php/apps/files_sharing/api/v1/shares</code>, enabling offline brute-force attacks without rate limiting.</td>
-  <td>YesWeHack</td>
-  <td>2026</td>
-</tr>
-<td>🔐 <b>Keycloak</b></td>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
+    <td>Fixed <code>os/rpm</code> extractor to map the openSUSE Leap ecosystem container scans previously returned zero advisories because the openSUSE OSID went unhandled. (<a href="https://github.com/google/osv-scalibr/pull/2290" target="_blank">PR #2290</a>)</td>
+    <td>Google OSS VRP (PRP)</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scanner)</td>
+    <td>Added end-to-end test coverage for openSUSE Leap ecosystem mapping in osv-scanner, locking in the fix downstream. (<a href="https://github.com/google/osv-scanner/pull/2937" target="_blank">PR #2937</a>)</td>
+    <td>Google OSS VRP (PRP)</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🌐 <b>Angular CLI</b> (build-angular)</td>
+    <td>OS command injection hardening in SSR dev server builder  <code>outputPath</code> from <code>angular.json</code> was interpolated into a shell string with <code>shell: true</code>, allowing <code>$()</code> command substitution. Fixed via 3-arg <code>spawn()</code> (<a href="https://github.com/angular/angular-cli/pull/33479" target="_blank">PR #33479</a>). Classified by maintainers as hardening, not a vulnerability.</td>
+    <td>Google OSS VRP</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🤖 <b>Google ADK</b> (adk-python)</td>
+    <td>Redacted the database password from <code>DatabaseSessionService</code> engine-creation errors and session-migration logs — a networked connection URI leaked its password verbatim into exceptions and logs (CWE-532). Fix extended by maintainers to query-parameter secrets and four further migration log sites. (<a href="https://github.com/google/adk-python/pull/6485" target="_blank">PR #6485</a>, merged via Copybara)</td>
+    <td>Google OSS VRP</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>☁️ <b>Google OSS VRP</b> (go-cloud)</td>
+    <td>A batch of merged security-hardening fixes across go-cloud cloud drivers: Vault API path traversal in <code>secrets/hashivault</code> and <code>runtimevar/hashivault</code> (CWE-22/863, <a href="https://github.com/google/go-cloud/pull/3763" target="_blank">#3763</a>/<a href="https://github.com/google/go-cloud/pull/3764" target="_blank">#3764</a>), SNS-envelope forgery in <code>pubsub/awssnssqs</code> (CWE-345, <a href="https://github.com/google/go-cloud/pull/3762" target="_blank">#3762</a>), credential-in-error leaks in the Postgres/MySQL drivers (CWE-532, <a href="https://github.com/google/go-cloud/pull/3752" target="_blank">#3752</a>/<a href="https://github.com/google/go-cloud/pull/3753" target="_blank">#3753</a>), a cleartext-password auth downgrade (<a href="https://github.com/google/go-cloud/pull/3761" target="_blank">#3761</a>), and unrecovered-panic DoS in <code>docstore/awsdynamodb</code> (<a href="https://github.com/google/go-cloud/pull/3754" target="_blank">#3754</a>/<a href="https://github.com/google/go-cloud/pull/3760" target="_blank">#3760</a>).</td>
+    <td>Google OSS VRP</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>☁️ <b>Nextcloud</b></td>
+    <td>OCS Share API exposes full Argon2id password hash of password-protected link shares via <code>/ocs/v2.php/apps/files_sharing/api/v1/shares</code>, enabling offline brute-force attacks without rate limiting.</td>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🔐 <b>Keycloak</b></td>
     <td>Cross-client token introspection IDOR via <code>/realms/{realm}/protocol/openid-connect/token/introspect</code>  any confidential OAuth client can introspect tokens issued to other clients, leaking full PII and session metadata (username, email, sub, roles, session state) without authorization. Fixed in Keycloak 26.6.3. (<a href="https://www.cve.org/CVERecord?id=CVE-2026-37979" target="_blank">CVE-2026-37979</a>)</td>
-  <td>YesWeHack</td>
-  <td>2026</td>
-</tr>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
   <tr>
     <td>🐹 <b>Go</b> (golang/x/image)</td>
     <td>VP8L decoder validation-ordering flaw — dimension check ran <i>after</i> a 1 GiB allocation instead of before. Credited by the Go team in <a href="https://github.com/golang/go/issues/80063" target="_blank">golang/go#80063</a>; fix landed in CL 792240. Classified as a hardening measure.</td>
@@ -76,17 +100,17 @@
     <td>2026</td>
   </tr>
   <tr>
-  <td>🔬 <b>Google OSS VRP</b> (osv-scanner)</td>
-  <td>Enabled Swift PackageResolved plugin to detect SwiftURL ecosystem CVEs — fixing zero CVE matches for SPM packages previously misidentified as CocoaPods (<a href="https://github.com/google/osv-scanner/pull/2801" target="_blank">PR #2801</a>)</td>
-  <td>Google OSS VRP</td>
-  <td>2026</td>
-</tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scanner)</td>
+    <td>Enabled Swift PackageResolved plugin to detect SwiftURL ecosystem CVEs — fixing zero CVE matches for SPM packages previously misidentified as CocoaPods (<a href="https://github.com/google/osv-scanner/pull/2801" target="_blank">PR #2801</a>)</td>
+    <td>Google OSS VRP</td>
+    <td>2026</td>
+  </tr>
   <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
     <td>Ecosystem misclassification fix causing zero CVE matches for Wolfi OS and Chainguard container images</td>
     <td>Google OSS VRP</td>
     <td>2026</td>
-</tr>
+  </tr>
   <tr>
     <td>🚀 <b>NASA</b> (globe.gov)</td>
     <td>Information Disclosure on official government platform</td>
@@ -100,11 +124,11 @@
     <td>2026</td>
   </tr>
   <tr>
-  <td>🔑 <b>OpenProject</b></td>
-  <td>Improper Access Control leading to unauthorized cross-project data manipulation (<a href="https://www.cve.org/CVERecord?id=CVE-2026-27722" target="_blank">CVE-2026-27722</a> · <a href="https://github.com/opf/openproject/security/advisories/GHSA-xw8w-4qxm-g9gv" target="_blank">GHSA-xw8w-4qxm-g9gv</a>)</td>
-  <td>YesWeHack</td>
-  <td>2026</td>
-</tr>
+    <td>🔑 <b>OpenProject</b></td>
+    <td>Improper Access Control leading to unauthorized cross-project data manipulation (<a href="https://www.cve.org/CVERecord?id=CVE-2026-27722" target="_blank">CVE-2026-27722</a> · <a href="https://github.com/opf/openproject/security/advisories/GHSA-xw8w-4qxm-g9gv" target="_blank">GHSA-xw8w-4qxm-g9gv</a>)</td>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
   <tr>
     <td>📋 <b>OpenProject</b></td>
     <td>Authentication logic flaw enabling account compromise</td>
