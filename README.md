@@ -2,7 +2,7 @@
 <h3 align="center">🛡️AppSec & DevSecOps Engineer & Security Researcher from Indonesia</h3>
 
 - 👨‍💻 All of my projects are available at [https://github.com/herdiyana256](https://github.com/herdiyana256)
-- 💬 Ask me about *Web Security, Android Dev, DevSecOps, CI/CD Pipeline Security, Automation*
+- 💬 Ask me about *Web Security, Android Dev, DevSecOps, CI/CD Pipeline Security, Scripting,Automation*
 - 📫 How to reach me *herdiyan@kreasipdf.com*
 - 👨‍💻 My Business [KreasiPDF](https://kreasipdf.com)
 <p align="center">
