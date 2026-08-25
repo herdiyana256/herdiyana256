@@ -45,6 +45,12 @@
     <td>2026</td>
   </tr>
   <tr>
+    <td>📌 <b>Pinterest</b> (secor)</td>
+    <td>Path Traversal via Kafka message field in secor's <code>SplitByFieldMessageParser</code>  the attacker-controlled <code>event_type</code> field is used unsanitised as the first path component, so a Kafka producer can inject <code>../</code> to make secor write and overwrite files outside the configured storage prefix (cross-dataset overwrite in the same S3 bucket / arbitrary filesystem write, CWE-22). (<a href="https://github.com/pinterest/secor/blob/master/src/main/java/com/pinterest/secor/parser/SplitByFieldMessageParser.java#L54" target="_blank">secor source</a>)</td>
+    <td>Bugcrowd</td>
+    <td>2026</td>
+  </tr>
+  <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
     <td>Fixed <code>os/rpm</code> extractor to map AlmaLinux ecosystem previously zero ALSA advisories detected across 1B+ pulled AlmaLinux container images. (<a href="https://github.com/google/osv-scalibr/pull/2148" target="_blank">PR #2148</a>)</td>
     <td>Google OSS VRP (PRP)</td>
