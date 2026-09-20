@@ -39,6 +39,24 @@
     <th>Year</th>
   </tr>
   <tr>
+    <td>🔐 <b>Keycloak</b></td>
+    <td>Improper Access Control on <code>/admin/realms/&lt;realm&gt;/clients/&lt;client&gt;/service-account-user</code> bypasses Declarative User Profile view permissions, disclosing service-account PII (email, firstName) to a caller holding only view-clients (CWE-862, CWE-200)</td>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🔐 <b>Keycloak</b></td>
+    <td>IDOR on Identity Brokering API V1 <code>/realms/&lt;realm&gt;/broker/&lt;idp&gt;/token</code> a realm-wide read-token role instead of a per-provider check lets any client read the stored OAuth tokens of every linked identity provider (CWE-639, CWE-863)</td>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🔐 <b>Keycloak</b></td>
+    <td>Improper Access Control in the SCIM API on <code>/realms/&lt;realm&gt;/scim/v2/Users/&lt;id&gt;</code> POST/PUT/PATCH bypass Declarative User Profile edit permissions, letting a manage-users client rewrite protected attributes, even ones locked edit:[] (CWE-863, CWE-284)</td>
+    <td>YesWeHack</td>
+    <td>2026</td>
+  </tr>
+  <tr>
     <td>📦 <b>Easyship</b></td>
     <td>Exposed Addressy (Loqate) API key in client-side JS bundle with no domain restriction, enabling unauthorized quota-draining API abuse (CWE-798)</td>
     <td>YesWeHack</td>
