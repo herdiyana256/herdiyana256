@@ -38,6 +38,18 @@
     <th>Platform</th>
     <th>Year</th>
   </tr>
+    <tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
+    <td>Fixed <code>os/apk</code> extractor to map the MinimOS ecosystem - MinimOS container packages were routed to Alpine, so all 142,464 MINI-* advisories on OSV.dev (9,337 distinct CVEs, 8,987 packages) were unreachable and scans returned a false clean result. (<a href="https://github.com/google/osv-scalibr/pull/2406" target="_blank">PR #2406</a>)</td>
+    <td>Google OSS VRP (PRP)</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>🎯 <b>YesWeHack Dojo #54</b></td>
+    <td>Auth Bypass in Highscore via Duplicate JSON Key Injection - UTF-8 byte vs UTF-16 <code>length</code> mismatch in the session filter smuggles a second <code>"session"</code> key past byte-by-byte validation, overriding the ORM WHERE clause (CWE-287)</td>
+    <td>YesWeHack Dojo</td>
+    <td>2026</td>
+  </tr>
   <tr>
     <td>🔐 <b>Keycloak</b></td>
     <td>Improper Access Control on <code>/admin/realms/&lt;realm&gt;/clients/&lt;client&gt;/service-account-user</code> bypasses Declarative User Profile view permissions, disclosing service-account PII (email, firstName) to a caller holding only view-clients (CWE-862, CWE-200)</td>
