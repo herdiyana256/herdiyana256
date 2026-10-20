@@ -40,6 +40,12 @@
   </tr>
     <tr>
     <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
+    <td>Added new <code>r/rpkg</code> extractor for CRAN and Bioconductor packages. R-based container scans (rocker/r-ver, rocker/tidyverse, bioconductor) returned zero package inventory because installed packages' <code>DESCRIPTION</code> (DCF) files were never read, so none of the OSV.dev CRAN (RSEC) advisories could match and scans returned a false clean result. The only prior R extractor, <code>r/renvlock</code>, covered only projects using renv. (<a href="https://github.com/google/osv-scalibr/pull/2040" target="_blank">PR #2040</a>)</td>
+    <td>Google OSS VRP (PRP)</td>
+    <td>2026</td>
+  </tr>
+    <tr>
+    <td>🔬 <b>Google OSS VRP</b> (osv-scalibr)</td>
     <td>Fixed <code>os/apk</code> extractor to map the MinimOS ecosystem - MinimOS container packages were routed to Alpine, so all 142,464 MINI-* advisories on OSV.dev (9,337 distinct CVEs, 8,987 packages) were unreachable and scans returned a false clean result. (<a href="https://github.com/google/osv-scalibr/pull/2406" target="_blank">PR #2406</a>)</td>
     <td>Google OSS VRP (PRP)</td>
     <td>2026</td>
