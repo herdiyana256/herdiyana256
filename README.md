@@ -1,16 +1,16 @@
-<h1 align="center">Hi Everyone! 👋, I'm Herdiyanitdev</h1>
-<h3 align="center">🛡️AppSec & DevSecOps Engineer & Security Researcher from Indonesia</h3>
+<h1 align="center">Hi, I'm Herdiyanitdev</h1>
+<h3 align="center">AppSec & DevSecOps Engineer | Security Researcher | IT Professional</h3>
 
-- 👨‍💻 All of my projects are available at [https://github.com/herdiyana256](https://github.com/herdiyana256)
-- 💬 Ask me about *Web Security,IOS & Android Dev, DevSecOps, CI/CD Pipeline Security, Scripting,Automation*
-- 📫 How to reach me *herdiyan@kreasipdf.com*
-- 👨‍💻 My Business [KreasiPDF](https://kreasipdf.com)
+- My projects are available at [GitHub](https://github.com/herdiyana256)
+- Areas of expertise: Web Security, iOS & Android Engineer, DevSecOps, CI/CD Pipeline Security, Scripting & Automation
+- Contact: [herdiyan@kreasipdf.com](mailto:herdiyan@kreasipdf.com)
+- Founder of [KreasiPDF](https://kreasipdf.com)
+
 <p align="center">
   <a href="https://www.kreasipdf.com" target="_blank">
     <img src="https://www.kreasipdf.com/logo_light.png" alt="KreasiPDF Logo" height="50" />
   </a>
 </p>
-
 ---
 
 <p align="center">
